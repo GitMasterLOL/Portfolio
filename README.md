@@ -131,19 +131,37 @@ Design report, STEP assembly, manufacturing drawings and BOM are in the repo.
 
 ---
 ## Motor Driver Enclosure with Active Air Cooling
-🔗 Repo: [Motor Driver Enclosure](https://github.com/GitMasterLOL/Motor-Driver-enclosure)
 
-**Project overview:**
-Mechanical design of a compact motor driver enclosure incorporating magnetic holders and forced-air cooling to improve thermal performance and reliability in high-current unstable operation.
+**Compact enclosure for Cytron MD10C and MD15D motor drivers with forced-air cooling and magnetic mounting, designed for high-current operation on Vyadh's robotic arm**
 
-**My contributions:**
-- Designed a 3D CAD enclosure optimized for stability, airflow, component accessibility, and mounting constraints
-- Integrated a fan-based cooling path
-- Considered manufacturability, cable routing, and maintenance access in the
-  mechanical layout
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Key skills demonstrated:**
-Mechanical CAD, enclosure design, thermal considerations, practical manufacturability
+![Enclosure assembled, isometric view](images/motor_driver_enclosure_iso.jpg)
+
+</td>
+<td width="50%" valign="top">
+
+![Printed enclosure with driver installed](images/motor_driver_enclosure_real.png)
+
+</td>
+</tr>
+</table>
+
+- **Role:** Sole designer
+- **Software:** Onshape
+- **Context:** Team project
+- **Repo:** [Motor-Driver-enclosure](https://github.com/GitMasterLOL/Motor-Driver-enclosure)
+
+**Key design points**
+- **Constraints:** Compact enclosure with active cooling, no strain on wires and easily detachable drivers.
+- **Cooling path:** An 8020 PC fan pulls air in from above and out through the base, directed across driving circuits.
+- **Magnetic mounting:** 5 mm round magnets were used for strong clamping and quick replacement.
+- **Access and cabling:** The sides of the enclosure are completely open which allows for the drivers to be removed easily and prevent strain on high current wires.
+- **Manufacturing:** FDM 3D printing with 4 layer walls and 60% infill for good balance of rigidity and strength.
+
+**Status:** Printed and in use.
 
 ---
 ## Vyadh Robotic Arm (Team Project)
